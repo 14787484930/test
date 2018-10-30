@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta charset="GBK">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -9,27 +9,174 @@
 <body>
 <div class="container">
     <div class="row clearfix">
-        <div class="col-md-12 column">
-            <h3 class="text-center">
-                gpj最丑
-            </h3>
-            <div class="col-md-12 column">
-
-                <form role="form">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">丑的原因</label><input type="email" class="form-control" id="exampleInputEmail1" />
+        <div class="col-md-12 col-sm-12 col-xs-12 column">
+            <div class="row clearfix">
+                <div class="col-md-12 col-sm-12 col-xs-12 column">
+                    <div class="page-header">
+                        <h1>
+                            昌源学校教师教学满意度调查表
+                        </h1>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">出的可怕</label><input type="password" class="form-control" id="exampleInputPassword1" />
-                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-md-12 col-sm-12 col-xs-12 column">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>
+                                教师姓名：
+                            </th>
+                            <th>
+                                评价指标
+                            </th>
+                            <th>
+                                分数
+                            </th>
+                            <th>
+                                等级及系数ABCDE（1.0、0.8、0.6、0.4、0.2）
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td rowspan="4">
+                                教学态度（20分）
+                            </td>
+                            <td >课程精心准备，授课得心应手，举止严谨</td>
 
-                    <div class="form-group "> <button type="submit" class="btn btn-success col-md-12">真的丑啊</button></div>
-                </form>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 6px">5</span></td>
+
+                            <td><input type="text" class="form-control" ></td>
+
+                        </tr>
+                        <tr>
+                            <td>教课认真，精神饱满有激情，对学生负责，纪律好</td>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 3px">4</span></td>
+
+
+                            <td><input type="text" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <td>有问必答，辅导及时耐心，有作业批改，经常与学生交流沟通，按时上下课，不迟到，不缺课</td>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 3px">6</span></td>
+
+                            <td><input type="text" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <td>工作认真，授课有章法，实训规范、有组织、有分工</td>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 3px">5</span></td>
+                            <td><input type="text" class="form-control"></td>
+                        </tr>
+
+
+                        <!--第二行-->
+                        <tr class="success">
+                            <td rowspan="5">
+                                教学内容（30分）
+                            </td>
+                            <td>教学内容贴近实际，板书整洁、易懂</td>
+                            <td>
+                                <span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 6px">5</span><br />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" >
+                            </td>
+                        </tr>
+
+                        <tr class="success">
+                            <td>观点正确，条例清晰，系统性强</td>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 3px">5</span></td>
+                            <td> <input type="text" class="form-control"></td>
+                        </tr>
+                        <tr class="success">
+                            <td>能够理论联系实际，有创新意识</td>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 3px">7</span></td>
+                            <td> <input type="text" class="form-control"></td>
+                        </tr>
+                        <tr class="success">
+                            <td>知识面宽、所授内容紧跟形势变化</td>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 3px">7</span></td>
+                            <td> <input type="text" class="form-control"></td>
+                        </tr>
+                        <tr class="success">
+                            <td>重点突出、深度、难度适宜</td>
+                            <td> <span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 3px">6</span></td>
+                            <td> <input type="text" class="form-control"></td>
+                        </tr>
+
+                        <!--第三行-->
+                        <tr class="error">
+                            <td rowspan="4">教学方法（20分）</td>
+                            <td>
+                                教学方法灵活多样、师生互动活跃、课堂气氛好
+                            </td>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 6px">5</span></td>
+                            <td><input type="text" class="form-control" ></td>
+                        </tr>
+                        <tr class="error">
+                            <td>恰当运用传统教学与现代教学相结合，学生易接受</td>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 6px">5</span></td>
+                            <td><input type="text" class="form-control" ></td>
+                        </tr>
+                        <tr class="error">
+                            <td>讲课通俗易懂、深入浅出、学生易掌握</td>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 6px">5</span></td>
+                            <td><input type="text" class="form-control" ></td>
+                        </tr>
+                        <tr class="error">
+                            <td>启发思维、激励学生，实训按规范</td>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 6px">5</span></td>
+                            <td><input type="text" class="form-control" ></td>
+                        </tr>
+
+                        <!--第四行-->
+                        <tr class="warning">
+                            <td rowspan="4">教学效果（20分）</td>
+                            <td>所讲内容学生理解并掌握，良好习惯陶冶<br /></td>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 6px">5</span></td>
+                            <td><input type="text" class="form-control" ></td>
+                        </tr>
+                        <tr class="warning">
+                            <td>学生上课积极性高、课堂收效明显</td>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 6px">5</span></td>
+                            <td><input type="text" class="form-control" ></td>
+                        </tr>
+                        <tr class="warning">
+                            <td>学生理论和实操有明显提高</td>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 6px">5</span></td>
+                            <td><input type="text" class="form-control" ></td>
+                        </tr>
+                        <tr class="warning">
+                            <td>课程为学生走向工作岗位打下较好基础</td>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 6px">5</span></td>
+                            <td><input type="text" class="form-control" ></td>
+                        </tr>
+                        <!--第五行-->
+                        <tr class="info">
+                            <td rowspan="3">谈心交流（10分）</td>
+                            <td>你感到在昌源学汽修的收获有多大，老师在指导学习方面是否满意</td>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 6px">2</span></td>
+                            <td><input type="text" class="form-control" ></td>
+                        </tr>
+                        <tr class="info">
+                            <td>你对老师的教课有哪些看法</td>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 6px">3</span></td>
+                            <td><input type="text" class="form-control" ></td>
+                        </tr>
+                        <tr class="info">
+                            <td>如果你有亲朋好友你是否愿意推荐到昌源学校来上学</td>
+                            <td><span class="badge pull-right active" style="margin-bottom: 15px;margin-top: 6px">5</span></td>
+                            <td><input type="text" class="form-control" ></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-
 </body>
+
 </html>
